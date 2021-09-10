@@ -1,0 +1,244 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+}
+
+/** Aquí comienza CSS del NAVBAR **/
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(61, 58, 58);
+    color: white;
+    height: 60px;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+
+.nav-title {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.nav-links{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    margin-right: 50px;
+}
+    
+ul{
+    list-style: none;
+    color: gray;
+}
+
+li{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+a{
+    color: rgb(184, 182, 182);
+    text-decoration: none;
+}
+
+.active{
+    color: white;
+}
+.btn{
+    text-align:center;
+    color: white;
+    background-color: rgb(23, 181, 187);
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    padding: 5px;
+}
+/** Aquí termina CSS del NAVBAR **/
+
+/** Inicio Contenedor General**/
+.general{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.columnLeft {
+    flex: 3;
+    margin: 10px;
+}
+
+.columnRigth {
+    flex: 2;
+    margin: 10px;
+}
+
+.contGen {
+    border: 1px solid rgb(41, 39, 39);
+    margin-bottom: 10px;
+}
+
+/** FIN Contenedor General**/
+
+/** Inicia Tarjeta Principal**/
+.bgBlue {
+    flex:1;
+    background-color: rgb(22, 128, 170);    
+}
+
+.card {
+    position: absolute;
+    top:130px;
+    left: 100px;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 20px;
+    align-items: center;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.userPic {
+    height: 150px;
+    width: 150px;
+}
+
+.map {
+    height: 15px;
+    width: 10px;
+    margin-right: 10px;
+}
+
+.gear {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.name {
+    font-weight: bold;
+    font-size:x-large;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 385px;
+}
+
+.bgWhite {
+    flex:3;
+}
+/** FIN Tarjeta Principal**/
+
+/** Inicia Tarjetas secundarias**/
+.line1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}
+
+.requestName {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 200px;
+}
+
+.line2{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(35, 37, 37);
+    align-items: center;
+    height: 40px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.textEd {
+    padding-left: 30px;
+}
+
+.gray{
+    color: gray;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    
+}
+
+span {
+    padding-left: 30px;
+}
+
+.number{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(151, 153, 153);
+    text-align:center;
+    color: black;
+    margin-right: 15px;
+    margin-left: 20px;
+}
+
+.number2{
+    width: 60px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(151, 153, 153);
+    text-align:center;
+    color: black;
+    margin-right: 15px;
+    margin-left: 20px;
+}
+
+.user {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+.clicYes {
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+}
+.clicNo {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.more {
+    padding: 10px;
+    margin-left: 15px;
+    text-decoration: underline;
+    color: blue;
+}
+/** FIN Tarjetas secundarias**/
+
+
